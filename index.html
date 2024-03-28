@@ -8,7 +8,7 @@
 <body>
 
   <header>
-    <h1>memory</h1>
+    <h1>memory.</h1>
     <div class="subtitle">a new era of social media awaits you</div>
   </header>
 
@@ -27,6 +27,17 @@
 
 
 <style>
+
+html:before {
+  content: ' ';
+  background: radial-gradient(#5401c8 20%, #7e66f6 40%, #a999f8 50.8%, white 50.9%, #e8e6e4 51%);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scale(4) translateY(32.6%);
+}
+
 body {
   position: fixed;
   top: 0; left: 0;
@@ -39,10 +50,17 @@ body {
 header {
   align-self: end;
   justify-self: center;
+  color: white;
+  text-shadow: 0 0 2px #00000066, 1px 5px 10px #00000052;
+}
+
+.subtitle {
+  font-family: sans-serif;
+  padding-left: 0.2em;
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 560%;
   margin-bottom: -0.2em;
 }
 
@@ -56,6 +74,13 @@ form {
 
 footer {
   padding: 1em;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+footer a {
+  color: #ffffff61;
+  text-decoration: none;
 }
 
 </style>
