@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝗺𝗲𝗺𝗼𝗿𝘆 | a new era of social media awaits you</title>
+  <title>𝗺𝗲𝗺𝗼𝗿𝘆 • a new era of social media awaits you</title>
 </head>
 <body>
 
@@ -76,11 +76,41 @@ footer {
   padding: 1em;
   font-family: sans-serif;
   font-weight: 400;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 1em;
 }
 
 footer a {
   color: #ffffff61;
   text-decoration: none;
+}
+
+input {
+  font-size: 100%;
+  padding: 0.5em 0.6em;
+  border-radius: 0.8em;
+  border: solid 1px #ffffff7a;
+  box-shadow: 0 0 2px white;
+  background-color: #ffffff21;
+  color: white;
+}
+
+input::placeholder {
+  color: #ffffff7a;
+}
+
+input[type=submit] {
+  background: #ffffffd1;
+  color: #491dcf;
+  cursor: pointer;
+  box-shadow: 0 1px 7px #1c007a5e;
+  transition: background 200ms, box-shadow 200ms;
+}
+
+input[type=submit]:hover {
+  background: white;
+  box-shadow: 0 1px 7px #1d007a;
 }
 
 </style>
